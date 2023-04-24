@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="pcstyle.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+   <!--   header starts here -->
+  <header>
+    <div class="header">
+      <div class="inner_header">
+        <div class="logo_container">
+          <!-- The below line can be an image or a h1, either will work -->
+          <h1>Cars<span>SITE</span></h1>
+        </div>
+        <ul class="navigation">
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="about.html">
+            <li>About</li>
+          </a>
+          <a href="faq.html">
+            <li>FAQ</li>
+          </a>
+          <a href="contacts.html">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!--   header ends here -->
+
+  <!-- body starts here -->
+
+  <main>
+      <h2>Select a Car</h2>
+      <form>
+        <label for="car-model">Car Model:</label>
+        <select name="car-model" id="car-model">
+          <option value="Toyota Camry">Toyota Camry</option>
+          <option value="Honda Civic">Honda Civic</option>
+          <option value="Ford Mustang">Ford Mustang</option>
+          <option value="Tesla Model S">Tesla Model S</option>
+        </select>
+        <label for="car-color">Car Color:</label>
+        <select name="car-color" id="car-color">
+          <option value="Red">Red</option>
+          <option value="Blue">Blue</option>
+          <option value="Black">Black</option>
+          <option value="White">White</option>
+        </select>
+        <label for="car-year">Car Year:</label>
+        <input type="number" name="car-year" id="car-year" min="1900" max="2023">
+        <label for="car-price">Car Price:</label>
+        <input type="number" name="car-price" id="car-price" min="0">
+        
+        <button type="submit"><a href="BuyThanks.html">Buy Now</a></button>
+         
+      </form>
+    </main>
+
+  <!-- body ends here -->
+
+  <!-- footer starts here-->
+
+  <div class="footer1">
+    <footer class="footer">
+      <div class="containers">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Cars</h4>
+            <ul>
+              <li><a href="about.html">about us</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">affiliate program</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="#">Car Question</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Order Status</a></li>
+              <li><a href="#">Payment Options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Centers</h4>
+            <ul>
+              <li><a href="#">Amchi Mumbai</a></li>
+              <li><a href="#">New Delhi</a></li>
+              <li><a href="#">Toronto</a></li>
+              <li><a href="#">Vancouver</a></li>
+            </ul>
+          </div>
+          <!-- <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linked-in"></i></a>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </footer>
+    <!--   footer ends here -->
+  </div>
+
+  
+  <!-- footer ends here -->
+ 
+  <script src="script.js"></script>
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

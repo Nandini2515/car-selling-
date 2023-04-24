@@ -1,0 +1,141 @@
+/* header starts here */
+
+*{
+  margin: auto;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  
+/*   background-color: #7cd5f3; */
+}
+
+.header{
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #101010;
+}
+
+.inner_header{
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+/*   background-color: red; */
+}
+
+.logo_container{
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_container h1{
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Montserrat';
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.logo_container h1 span{
+  font-weight: 800;
+}
+
+.navigation{
+  float: right;
+  height: 100%;
+}
+
+.navigation a{
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+
+.navigation a:last-child{
+  padding-right: 0;
+}
+
+.navigation a li{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 16px;
+}
+
+/* header ends here */
+
+/* header ends here */
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs_IEddCz_roQsHya4DWlao9X5Am1uhbbpvA");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.thanks{
+  font-family: 'Raleway';
+  line-height: 1000%;
+  background-color: #fff;
+  /* padding: 200px; */
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+main {
+  font-family: 'Raleway';
+  font-size: 25px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p2{
+  padding-left: 0px;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  padding-left: auto;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #fff;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+
+/* footer starts here */
+
